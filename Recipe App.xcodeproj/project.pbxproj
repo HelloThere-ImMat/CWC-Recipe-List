@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D179C1A26CD755500B77377 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D179C1926CD755500B77377 /* RecipeFeaturedView.swift */; };
 		3D4BE7C226B99FAF002CA898 /* Recipe_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE7C126B99FAF002CA898 /* Recipe_App.swift */; };
 		3D4BE7C426B99FAF002CA898 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE7C326B99FAF002CA898 /* RecipeListView.swift */; };
 		3D4BE7C626B99FAF002CA898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BE7C526B99FAF002CA898 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D179C1926CD755500B77377 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		3D4BE7BE26B99FAF002CA898 /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4BE7C126B99FAF002CA898 /* Recipe_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_App.swift; sourceTree = "<group>"; };
 		3D4BE7C326B99FAF002CA898 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				3D7A061626C7D58500F4BE10 /* RecipeTabView.swift */,
+				3D179C1926CD755500B77377 /* RecipeFeaturedView.swift */,
 				3D4BE7C326B99FAF002CA898 /* RecipeListView.swift */,
 				3D4BE7DD26BC0419002CA898 /* RecipeDetailsView.swift */,
 			);
@@ -203,6 +206,7 @@
 				3D4BE7DC26BA7DED002CA898 /* RecipeModel.swift in Sources */,
 				3D4BE7C426B99FAF002CA898 /* RecipeListView.swift in Sources */,
 				3D4BE7C226B99FAF002CA898 /* Recipe_App.swift in Sources */,
+				3D179C1A26CD755500B77377 /* RecipeFeaturedView.swift in Sources */,
 				3D7A061726C7D58500F4BE10 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
