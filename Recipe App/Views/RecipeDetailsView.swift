@@ -14,13 +14,13 @@ struct RecipeDetailsView: View {
     var body: some View {
         ScrollView {
             
-            VStack {
+            VStack (alignment: .leading) {
                 
                 Image(recipe.image)
                     .resizable()
-                    .scaledToFill()
-                    .frame(width: 250, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .clipped()
+                    .scaledToFit()
+                    .cornerRadius(10)
+                    .padding()
                 
                 VStack(alignment: .leading) {
                     
@@ -35,7 +35,7 @@ struct RecipeDetailsView: View {
                        
                     }
                     
-                }
+                }.padding(.leading)
                 
                 Divider()
                 
@@ -53,7 +53,7 @@ struct RecipeDetailsView: View {
                     }
                     
                     
-                }
+                }.padding(.leading)
                 
             }
             
@@ -66,6 +66,6 @@ struct RecipeDetailsView_Previews: PreviewProvider {
         
         let model = RecipeModel()
         
-        RecipeDetailsView(recipe: model.recipeList[0])
+        RecipeDetailsView(recipe: model.recipeList[1])
     }
 }
